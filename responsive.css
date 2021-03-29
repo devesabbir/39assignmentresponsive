@@ -291,9 +291,18 @@
   
     }
 
-    .menu input[type="checkbox"]:checked ~ ul{
-         visibility: visible;
-         opacity: 1;
+
+   
+
+    .menu input[type="checkbox"]:checked ~ ul {
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+    }
+
+
+    .header-row .menu ul li {
+        text-align: left;
     }
 
      .menu input[type="checkbox"]:checked ~ span {
