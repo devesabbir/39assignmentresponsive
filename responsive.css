@@ -1,0 +1,85 @@
+.menu input[type="checkbox"]{}
+.menu span{}
+
+
+
+@media all and (max-width:1200px) {
+
+    .midwidth {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+
+
+@media all and (max-width:1000px){
+    .header-row .logo {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .header-row .logo a {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .header-row .menu {
+        width: 100%;
+
+    }
+
+    .header-row .menu ul {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .banner-row {
+        padding: 120px 0px;
+   
+    }
+
+    .banner-row .banner-content .banner-caption h1 {
+        font-size: 25px;
+    }
+
+    .banner-row .banner-content .banner-caption h4 {
+        margin: 12px 0px;
+        font-size: 17px;
+
+    }
+
+    .banner-row .banner-content .banner-btn a {
+        font-size: 10px;
+
+    }
+
+   
+} 
+
+
+
+
+@media all and (max-width:472px) {
+
+    .header-row .menu ul li a {
+        padding: 0px 10px;
+    
+    }
+}
+
+
+@media all and (max-width:308px) {
+    .header-row .menu ul li {
+        display: block;
+   
+    }
+
+    .header-row .menu ul li a {
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+
+
+}
