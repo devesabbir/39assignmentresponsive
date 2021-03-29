@@ -297,7 +297,8 @@
     .menu input[type="checkbox"]:checked ~ ul {
         visibility: visible;
         opacity: 1;
-        width: 100%;
+        width: calc(100% - 20px);
+        padding: 0 -10px;
     }
 
 
