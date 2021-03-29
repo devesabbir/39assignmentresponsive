@@ -76,8 +76,8 @@ p {
 .header-row .menu ul li a {
     display: inline-block;
     color: #fff;
-    padding: 0px 25px;
-    font-size: 15px;
+    padding: 0px 19px;
+    font-size: 20px;
     transition: .5s;
 }
 
